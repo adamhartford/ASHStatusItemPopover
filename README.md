@@ -1,5 +1,5 @@
 # ASHStatusItemPopover
-Show an NSPopover from the status bar. Looks and feels like you'd expect.
+Shows an NSPopover from the status bar. Uses NSWindowController with an NSPanel overlay for the look/feel and user interactions you expect in menu bar applications.
 
 ## Screenshot
 
