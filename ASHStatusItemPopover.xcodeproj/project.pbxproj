@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6623A70D1863D8410061927C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623A70C1863D8410061927C /* Cocoa.framework */; };
+		6623A7171863D8410061927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7151863D8410061927C /* InfoPlist.strings */; };
+		6623A7191863D8410061927C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A7181863D8410061927C /* main.m */; };
+		6623A71D1863D8410061927C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6623A71B1863D8410061927C /* Credits.rtf */; };
+		6623A7201863D8410061927C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A71F1863D8410061927C /* AppDelegate.m */; };
+		6623A7231863D8410061927C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7211863D8410061927C /* MainMenu.xib */; };
+		6623A7251863D8410061927C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7241863D8410061927C /* Images.xcassets */; };
+		6623A72C1863D8410061927C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623A72B1863D8410061927C /* XCTest.framework */; };
+		6623A72D1863D8410061927C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623A70C1863D8410061927C /* Cocoa.framework */; };
+		6623A7351863D8410061927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7331863D8410061927C /* InfoPlist.strings */; };
+		6623A7371863D8410061927C /* ASHStatusItemPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A7361863D8410061927C /* ASHStatusItemPopoverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6623A72E1863D8410061927C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6623A7011863D8410061927C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6623A7081863D8410061927C;
+			remoteInfo = ASHStatusItemPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6623A7091863D8410061927C /* ASHStatusItemPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHStatusItemPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6623A70C1863D8410061927C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6623A70F1863D8410061927C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6623A7101863D8410061927C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6623A7111863D8410061927C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6623A7141863D8410061927C /* ASHStatusItemPopover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASHStatusItemPopover-Info.plist"; sourceTree = "<group>"; };
+		6623A7161863D8410061927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6623A7181863D8410061927C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6623A71A1863D8410061927C /* ASHStatusItemPopover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASHStatusItemPopover-Prefix.pch"; sourceTree = "<group>"; };
+		6623A71C1863D8410061927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6623A71E1863D8410061927C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6623A71F1863D8410061927C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6623A7221863D8410061927C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6623A7241863D8410061927C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6623A72A1863D8410061927C /* ASHStatusItemPopoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASHStatusItemPopoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6623A72B1863D8410061927C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6623A7321863D8410061927C /* ASHStatusItemPopoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASHStatusItemPopoverTests-Info.plist"; sourceTree = "<group>"; };
+		6623A7341863D8410061927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6623A7361863D8410061927C /* ASHStatusItemPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASHStatusItemPopoverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6623A7061863D8410061927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623A70D1863D8410061927C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623A7271863D8410061927C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623A72D1863D8410061927C /* Cocoa.framework in Frameworks */,
+				6623A72C1863D8410061927C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6623A7001863D8410061927C = {
+			isa = PBXGroup;
+			children = (
+				6623A7121863D8410061927C /* ASHStatusItemPopover */,
+				6623A7301863D8410061927C /* ASHStatusItemPopoverTests */,
+				6623A70B1863D8410061927C /* Frameworks */,
+				6623A70A1863D8410061927C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6623A70A1863D8410061927C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6623A7091863D8410061927C /* ASHStatusItemPopover.app */,
+				6623A72A1863D8410061927C /* ASHStatusItemPopoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6623A70B1863D8410061927C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6623A70C1863D8410061927C /* Cocoa.framework */,
+				6623A72B1863D8410061927C /* XCTest.framework */,
+				6623A70E1863D8410061927C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6623A70E1863D8410061927C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6623A70F1863D8410061927C /* AppKit.framework */,
+				6623A7101863D8410061927C /* CoreData.framework */,
+				6623A7111863D8410061927C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6623A7121863D8410061927C /* ASHStatusItemPopover */ = {
+			isa = PBXGroup;
+			children = (
+				6623A71E1863D8410061927C /* AppDelegate.h */,
+				6623A71F1863D8410061927C /* AppDelegate.m */,
+				6623A7211863D8410061927C /* MainMenu.xib */,
+				6623A7241863D8410061927C /* Images.xcassets */,
+				6623A7131863D8410061927C /* Supporting Files */,
+			);
+			path = ASHStatusItemPopover;
+			sourceTree = "<group>";
+		};
+		6623A7131863D8410061927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6623A7141863D8410061927C /* ASHStatusItemPopover-Info.plist */,
+				6623A7151863D8410061927C /* InfoPlist.strings */,
+				6623A7181863D8410061927C /* main.m */,
+				6623A71A1863D8410061927C /* ASHStatusItemPopover-Prefix.pch */,
+				6623A71B1863D8410061927C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6623A7301863D8410061927C /* ASHStatusItemPopoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				6623A7361863D8410061927C /* ASHStatusItemPopoverTests.m */,
+				6623A7311863D8410061927C /* Supporting Files */,
+			);
+			path = ASHStatusItemPopoverTests;
+			sourceTree = "<group>";
+		};
+		6623A7311863D8410061927C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6623A7321863D8410061927C /* ASHStatusItemPopoverTests-Info.plist */,
+				6623A7331863D8410061927C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6623A7081863D8410061927C /* ASHStatusItemPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6623A73A1863D8410061927C /* Build configuration list for PBXNativeTarget "ASHStatusItemPopover" */;
+			buildPhases = (
+				6623A7051863D8410061927C /* Sources */,
+				6623A7061863D8410061927C /* Frameworks */,
+				6623A7071863D8410061927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASHStatusItemPopover;
+			productName = ASHStatusItemPopover;
+			productReference = 6623A7091863D8410061927C /* ASHStatusItemPopover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6623A7291863D8410061927C /* ASHStatusItemPopoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6623A73D1863D8410061927C /* Build configuration list for PBXNativeTarget "ASHStatusItemPopoverTests" */;
+			buildPhases = (
+				6623A7261863D8410061927C /* Sources */,
+				6623A7271863D8410061927C /* Frameworks */,
+				6623A7281863D8410061927C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6623A72F1863D8410061927C /* PBXTargetDependency */,
+			);
+			name = ASHStatusItemPopoverTests;
+			productName = ASHStatusItemPopoverTests;
+			productReference = 6623A72A1863D8410061927C /* ASHStatusItemPopoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6623A7011863D8410061927C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adam Hartford";
+				TargetAttributes = {
+					6623A7291863D8410061927C = {
+						TestTargetID = 6623A7081863D8410061927C;
+					};
+				};
+			};
+			buildConfigurationList = 6623A7041863D8410061927C /* Build configuration list for PBXProject "ASHStatusItemPopover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6623A7001863D8410061927C;
+			productRefGroup = 6623A70A1863D8410061927C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6623A7081863D8410061927C /* ASHStatusItemPopover */,
+				6623A7291863D8410061927C /* ASHStatusItemPopoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6623A7071863D8410061927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623A7171863D8410061927C /* InfoPlist.strings in Resources */,
+				6623A7251863D8410061927C /* Images.xcassets in Resources */,
+				6623A71D1863D8410061927C /* Credits.rtf in Resources */,
+				6623A7231863D8410061927C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623A7281863D8410061927C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623A7351863D8410061927C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6623A7051863D8410061927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623A7201863D8410061927C /* AppDelegate.m in Sources */,
+				6623A7191863D8410061927C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6623A7261863D8410061927C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6623A7371863D8410061927C /* ASHStatusItemPopoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6623A72F1863D8410061927C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6623A7081863D8410061927C /* ASHStatusItemPopover */;
+			targetProxy = 6623A72E1863D8410061927C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6623A7151863D8410061927C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6623A7161863D8410061927C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6623A71B1863D8410061927C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6623A71C1863D8410061927C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6623A7211863D8410061927C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6623A7221863D8410061927C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6623A7331863D8410061927C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6623A7341863D8410061927C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6623A7381863D8410061927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6623A7391863D8410061927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6623A73B1863D8410061927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASHStatusItemPopover/ASHStatusItemPopover-Prefix.pch";
+				INFOPLIST_FILE = "ASHStatusItemPopover/ASHStatusItemPopover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6623A73C1863D8410061927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASHStatusItemPopover/ASHStatusItemPopover-Prefix.pch";
+				INFOPLIST_FILE = "ASHStatusItemPopover/ASHStatusItemPopover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6623A73E1863D8410061927C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASHStatusItemPopover.app/Contents/MacOS/ASHStatusItemPopover";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASHStatusItemPopover/ASHStatusItemPopover-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ASHStatusItemPopoverTests/ASHStatusItemPopoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6623A73F1863D8410061927C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASHStatusItemPopover.app/Contents/MacOS/ASHStatusItemPopover";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASHStatusItemPopover/ASHStatusItemPopover-Prefix.pch";
+				INFOPLIST_FILE = "ASHStatusItemPopoverTests/ASHStatusItemPopoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6623A7041863D8410061927C /* Build configuration list for PBXProject "ASHStatusItemPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6623A7381863D8410061927C /* Debug */,
+				6623A7391863D8410061927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6623A73A1863D8410061927C /* Build configuration list for PBXNativeTarget "ASHStatusItemPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6623A73B1863D8410061927C /* Debug */,
+				6623A73C1863D8410061927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6623A73D1863D8410061927C /* Build configuration list for PBXNativeTarget "ASHStatusItemPopoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6623A73E1863D8410061927C /* Debug */,
+				6623A73F1863D8410061927C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6623A7011863D8410061927C /* Project object */;
+}
