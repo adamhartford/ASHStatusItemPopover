@@ -18,6 +18,13 @@
 		6623A72D1863D8410061927C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623A70C1863D8410061927C /* Cocoa.framework */; };
 		6623A7351863D8410061927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7331863D8410061927C /* InfoPlist.strings */; };
 		6623A7371863D8410061927C /* ASHStatusItemPopoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A7361863D8410061927C /* ASHStatusItemPopoverTests.m */; };
+		6623A7431863D8AD0061927C /* ASHStatusItemPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A7421863D8AD0061927C /* ASHStatusItemPopover.m */; };
+		6623A7461863D8D20061927C /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A7451863D8D20061927C /* WindowController.m */; };
+		6623A7481863D8EB0061927C /* WindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7471863D8EB0061927C /* WindowController.xib */; };
+		6623A756186461CF0061927C /* alternateImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623A752186461CF0061927C /* alternateImage.png */; };
+		6623A757186461CF0061927C /* alternateImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623A753186461CF0061927C /* alternateImage@2x.png */; };
+		6623A758186461CF0061927C /* statusImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623A754186461CF0061927C /* statusImage.png */; };
+		6623A759186461CF0061927C /* statusImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6623A755186461CF0061927C /* statusImage@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,15 @@
 		6623A7321863D8410061927C /* ASHStatusItemPopoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASHStatusItemPopoverTests-Info.plist"; sourceTree = "<group>"; };
 		6623A7341863D8410061927C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6623A7361863D8410061927C /* ASHStatusItemPopoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASHStatusItemPopoverTests.m; sourceTree = "<group>"; };
+		6623A7411863D8AD0061927C /* ASHStatusItemPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHStatusItemPopover.h; sourceTree = "<group>"; };
+		6623A7421863D8AD0061927C /* ASHStatusItemPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHStatusItemPopover.m; sourceTree = "<group>"; };
+		6623A7441863D8D20061927C /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
+		6623A7451863D8D20061927C /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
+		6623A7471863D8EB0061927C /* WindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowController.xib; sourceTree = "<group>"; };
+		6623A752186461CF0061927C /* alternateImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alternateImage.png; sourceTree = "<group>"; };
+		6623A753186461CF0061927C /* alternateImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alternateImage@2x.png"; sourceTree = "<group>"; };
+		6623A754186461CF0061927C /* statusImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusImage.png; sourceTree = "<group>"; };
+		6623A755186461CF0061927C /* statusImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "statusImage@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +92,8 @@
 		6623A7001863D8410061927C = {
 			isa = PBXGroup;
 			children = (
-				6623A7121863D8410061927C /* ASHStatusItemPopover */,
+				6623A7401863D88E0061927C /* ASHStatusItemPopover */,
+				6623A7121863D8410061927C /* Demo */,
 				6623A7301863D8410061927C /* ASHStatusItemPopoverTests */,
 				6623A70B1863D8410061927C /* Frameworks */,
 				6623A70A1863D8410061927C /* Products */,
@@ -112,15 +129,20 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		6623A7121863D8410061927C /* ASHStatusItemPopover */ = {
+		6623A7121863D8410061927C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6623A7491863F2490061927C /* Images */,
+				6623A7441863D8D20061927C /* WindowController.h */,
+				6623A7451863D8D20061927C /* WindowController.m */,
+				6623A7471863D8EB0061927C /* WindowController.xib */,
 				6623A71E1863D8410061927C /* AppDelegate.h */,
 				6623A71F1863D8410061927C /* AppDelegate.m */,
 				6623A7211863D8410061927C /* MainMenu.xib */,
 				6623A7241863D8410061927C /* Images.xcassets */,
 				6623A7131863D8410061927C /* Supporting Files */,
 			);
+			name = Demo;
 			path = ASHStatusItemPopover;
 			sourceTree = "<group>";
 		};
@@ -152,6 +174,26 @@
 				6623A7331863D8410061927C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6623A7401863D88E0061927C /* ASHStatusItemPopover */ = {
+			isa = PBXGroup;
+			children = (
+				6623A7411863D8AD0061927C /* ASHStatusItemPopover.h */,
+				6623A7421863D8AD0061927C /* ASHStatusItemPopover.m */,
+			);
+			name = ASHStatusItemPopover;
+			sourceTree = "<group>";
+		};
+		6623A7491863F2490061927C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6623A752186461CF0061927C /* alternateImage.png */,
+				6623A753186461CF0061927C /* alternateImage@2x.png */,
+				6623A754186461CF0061927C /* statusImage.png */,
+				6623A755186461CF0061927C /* statusImage@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +273,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6623A7171863D8410061927C /* InfoPlist.strings in Resources */,
+				6623A758186461CF0061927C /* statusImage.png in Resources */,
+				6623A757186461CF0061927C /* alternateImage@2x.png in Resources */,
 				6623A7251863D8410061927C /* Images.xcassets in Resources */,
 				6623A71D1863D8410061927C /* Credits.rtf in Resources */,
+				6623A7481863D8EB0061927C /* WindowController.xib in Resources */,
+				6623A759186461CF0061927C /* statusImage@2x.png in Resources */,
+				6623A756186461CF0061927C /* alternateImage.png in Resources */,
 				6623A7231863D8410061927C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +299,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6623A7431863D8AD0061927C /* ASHStatusItemPopover.m in Sources */,
+				6623A7461863D8D20061927C /* WindowController.m in Sources */,
 				6623A7201863D8410061927C /* AppDelegate.m in Sources */,
 				6623A7191863D8410061927C /* main.m in Sources */,
 			);
