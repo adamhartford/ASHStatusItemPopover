@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B9B77901864A38A0023F3A5 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B778F1864A38A0023F3A5 /* screenshot.png */; };
 		5B9B77921864A9E70023F3A5 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B77911864A9E70023F3A5 /* LICENSE.txt */; };
+		5B9B77941864D0590023F3A5 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B77931864D0590023F3A5 /* screenshot.png */; };
 		6623A70D1863D8410061927C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6623A70C1863D8410061927C /* Cocoa.framework */; };
 		6623A7171863D8410061927C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6623A7151863D8410061927C /* InfoPlist.strings */; };
 		6623A7191863D8410061927C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A7181863D8410061927C /* main.m */; };
@@ -40,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5B9B778F1864A38A0023F3A5 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		5B9B77911864A9E70023F3A5 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5B9B77931864D0590023F3A5 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		6623A7091863D8410061927C /* ASHStatusItemPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHStatusItemPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6623A70C1863D8410061927C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		6623A70F1863D8410061927C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -96,8 +96,8 @@
 		6623A7001863D8410061927C = {
 			isa = PBXGroup;
 			children = (
+				5B9B77931864D0590023F3A5 /* screenshot.png */,
 				5B9B77911864A9E70023F3A5 /* LICENSE.txt */,
-				5B9B778F1864A38A0023F3A5 /* screenshot.png */,
 				6623A7401863D88E0061927C /* ASHStatusItemPopover */,
 				6623A7121863D8410061927C /* Demo */,
 				6623A7301863D8410061927C /* ASHStatusItemPopoverTests */,
@@ -283,12 +283,12 @@
 				6623A758186461CF0061927C /* statusImage.png in Resources */,
 				6623A757186461CF0061927C /* alternateImage@2x.png in Resources */,
 				6623A7251863D8410061927C /* Images.xcassets in Resources */,
+				5B9B77941864D0590023F3A5 /* screenshot.png in Resources */,
 				6623A71D1863D8410061927C /* Credits.rtf in Resources */,
 				6623A7481863D8EB0061927C /* WindowController.xib in Resources */,
 				6623A759186461CF0061927C /* statusImage@2x.png in Resources */,
 				6623A756186461CF0061927C /* alternateImage.png in Resources */,
 				6623A7231863D8410061927C /* MainMenu.xib in Resources */,
-				5B9B77901864A38A0023F3A5 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
