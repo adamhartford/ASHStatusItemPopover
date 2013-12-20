@@ -72,7 +72,7 @@
     [self toggleImage];
     [_statusItem popUpStatusItemMenu:_dummyMenu];
     
-    // Copy the contents of the panel to a NSView
+    // Copy the contents of the panel to an NSView
     NSData *archivedView = [NSKeyedArchiver archivedDataWithRootObject:_windowController.window.contentView];
     NSView *viewCopy = [NSKeyedUnarchiver unarchiveObjectWithData:archivedView];
     
@@ -107,7 +107,6 @@
     p.x -= (_windowController.window.frame.size.width / 2) - 11;
     
     // Bring the panel over the popover
-    [_windowController.window orderFrontRegardless];
     [_windowController.window setFrameOrigin:p];
     [_windowController.window makeKeyAndOrderFront:nil];
     
