@@ -20,6 +20,22 @@
     statusItemPopover.windowController = [[WindowController alloc] initWithWindowNibName:@"WindowController"];
     statusItemPopover.image = [NSImage imageNamed:@"statusImage"];
     statusItemPopover.alternateImage = [NSImage imageNamed:@"alternateImage"];
+    
+    statusItemPopover.popoverWillShow = ^{
+        NSLog(@"Popover will show");
+    };
+    
+    statusItemPopover.popoverDidShow = ^{
+        NSLog(@"Popover did show");
+    };
+    
+    statusItemPopover.popoverWillClose = ^{
+        NSLog(@"Popover will close");
+    };
+    
+    statusItemPopover.popoverDidClose = ^{
+        NSLog(@"Popover did close");
+    };
 }
 
 @end

@@ -15,6 +15,11 @@
 @property (strong, nonatomic) NSWindowController *windowController;
 @property (strong, nonatomic) NSImage *alternateImage;
 
+@property (nonatomic, copy) void (^popoverWillShow)();
+@property (nonatomic, copy) void (^popoverDidShow)();
+@property (nonatomic, copy) void (^popoverWillClose)();
+@property (nonatomic, copy) void (^popoverDidClose)();
+
 @end
 
 #pragma mark - ASHStatusItemPanel

@@ -99,6 +99,20 @@
     [NSEvent removeMonitor:_popoverTransiencyMonitor];
 }
 
+- (void)toggleImage
+{
+    NSImage *img = self.image;
+    self.image = _alternateImage;
+    _alternateImage = img;
+}
+
+#pragma mark - NSPopoverDelegate methods
+
+- (void)popoverWillShow:(NSNotification *)notification
+{
+    if (_popoverWillShow) _popoverWillShow();
+}
+
 - (void)popoverDidShow:(NSNotification *)notification
 {
     // Place the panel over the middle of the NSPopover view.
@@ -112,13 +126,18 @@
     
     NSMutableArray *views = [NSMutableArray arrayWithArray:_popover.contentViewController.view.subviews];
     for (NSView *view in views) [view removeFromSuperview];
+    
+    if (_popoverDidShow) _popoverDidShow();
 }
 
-- (void)toggleImage
+- (void)popoverWillClose:(NSNotification *)notification
 {
-    NSImage *img = self.image;
-    self.image = _alternateImage;
-    _alternateImage = img;
+    if (_popoverWillClose) _popoverWillClose();
+}
+
+- (void)popoverDidClose:(NSNotification *)notification
+{
+    if (_popoverDidClose) _popoverDidClose();
 }
 
 @end
