@@ -36,6 +36,15 @@ statusItemPopover.image = [NSImage imageNamed:@"image"];
 statusItemPopover.alternateImage = [NSImage imageNamed:@"alternateImage"];
 ```
 
+## Blocks
+
+```objective-c
+@property (nonatomic, copy) void (^popoverWillShow)();
+@property (nonatomic, copy) void (^popoverDidShow)();
+@property (nonatomic, copy) void (^popoverWillClose)();
+@property (nonatomic, copy) void (^popoverDidClose)();
+```
+
 ## Licence
 
 Copyright (C) 2013 Adam Hartford
