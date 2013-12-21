@@ -110,8 +110,7 @@
     [_windowController.window setFrameOrigin:p];
     [_windowController.window makeKeyAndOrderFront:nil];
     
-    NSMutableArray *views = [NSMutableArray array];
-    for (NSView *view in _popover.contentViewController.view.subviews) [views addObject:view];
+    NSMutableArray *views = [NSMutableArray arrayWithArray:_popover.contentViewController.view.subviews];
     for (NSView *view in views) [view removeFromSuperview];
 }
 
