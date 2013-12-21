@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) NSWindowController *windowController;
 @property (strong, nonatomic) NSImage *alternateImage;
+@property (strong, nonatomic, readonly) NSPopover *popover;
 
 @property (nonatomic, copy) void (^popoverWillShow)();
 @property (nonatomic, copy) void (^popoverDidShow)();

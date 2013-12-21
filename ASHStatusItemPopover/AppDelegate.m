@@ -21,6 +21,9 @@
     statusItemPopover.image = [NSImage imageNamed:@"statusImage"];
     statusItemPopover.alternateImage = [NSImage imageNamed:@"alternateImage"];
     
+    // If you want...
+    //statusItemPopover.popover.appearance = NSPopoverAppearanceHUD;
+    
     statusItemPopover.popoverWillShow = ^{
         NSLog(@"Popover will show");
     };
