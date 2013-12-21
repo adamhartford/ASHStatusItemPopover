@@ -12,7 +12,6 @@
 {
     BOOL _active;
     NSStatusItem *_statusItem;
-    NSPopover *_popover;
     NSMenu *_dummyMenu;
     id _popoverTransiencyMonitor;
 }
