@@ -116,9 +116,11 @@
 {
     // Place the panel over the middle of the NSPopover view.
     CGPoint p = self.window.frame.origin;
-    p.y -= _windowController.window.frame.size.height + 13;
-    p.x -= (_windowController.window.frame.size.width / 2) - 11;
-    
+//    p.y -= _windowController.window.frame.size.height + 13;
+//    p.x -= (_windowController.window.frame.size.width / 2) - 11;
+// OSX 10.10 fixed
+    p.x = _popover.contentViewController.view.window.frame.origin.x + _popover.contentViewController.view.frame.origin.x;
+    p.y = _popover.contentViewController.view.window.frame.origin.y + _popover.contentViewController.view.frame.origin.y;
     // Bring the panel over the popover
     [_windowController.window setFrameOrigin:p];
     [_windowController.window makeKeyAndOrderFront:nil];
