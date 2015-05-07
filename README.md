@@ -1,3 +1,5 @@
+**NOTE:** This project is obsolete. I've reimplemented it in Swift with improvements and fixes for Mission Control and Spaces at https://github.com/adamhartford/PopStatusItem.
+
 # ASHStatusItemPopover
 Shows an NSPopover from the status bar. Uses NSWindowController with an NSPanel overlay for the look/feel and user interactions you expect in menu bar applications.
 
